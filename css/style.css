@@ -1,0 +1,244 @@
+body {
+  color: #bfc1c8;
+  background: #1e202b;
+}
+
+li {
+  white-space: nowrap;
+}
+/* Nav Bar */
+
+.my-main-nav {
+  background-color: #1e202b !important;
+}
+.my-nav {
+  padding-inline: 2rem;
+  color: white;
+  /* justify-content: space-evenly !important; */
+  width: 85%;
+}
+.my-navbar-collapse {
+  margin-top: 2rem;
+  flex-grow: 0;
+}
+
+.my-nav-link {
+  color: #fff;
+  padding-inline: 1rem !important;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  color: var(--main-color);
+  box-shadow: 0 0 0 1.5px var(--main-color);
+  color: var(--main-color);
+  border-radius: 2rem;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.my-nav-item {
+  border-bottom: var(--secondry-color) 0.1px solid;
+}
+.my-nav-item:last-of-type {
+  border-bottom: none;
+}
+.my-navbar-nav {
+  background-color: #262936;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.new-nav-item:hover {
+  color: unset;
+  box-shadow: none;
+  border-radius: none;
+}
+.nav-link:focus {
+  outline: thin dotted;
+  border-radius: 2rem;
+}
+.new-nav-item:focus {
+  outline: none;
+  border-radius: none;
+}
+
+.navbar-nav .new-nav-item.active,
+.navbar-nav .show > .new-nav-item {
+  box-shadow: none !important;
+  /* color: var(--main-color); */
+  border-radius: none !important;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  box-shadow: 0 0 0 1.5px var(--main-color);
+  color: var(--main-color);
+  border-radius: 2rem;
+}
+
+h1 {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+}
+.logo-pa-2 {
+  color: var(--secondry-color);
+  font-size: 0.8rem;
+}
+
+.my-btn-info {
+  right: 0.2rem;
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 2rem;
+  padding-inline: 2rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  font-size: 0.8rem;
+}
+.my-btn-info:hover {
+  background-color: var(--main-color) !important;
+  color: #fff;
+}
+/* .my-btn-info:visited {
+  color: #fff;
+} */
+.my-tri-input,
+.my-input {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 2rem;
+  background-color: #1e202b;
+  border: none;
+  color: #fff !important;
+  font-size: 0.8rem;
+}
+.my-tri-input:focus,
+.my-input:focus {
+  background-color: #1e202b;
+  box-shadow: none;
+}
+.my-tri-input::placeholder,
+.my-input::placeholder {
+  color: var(--secondry-color);
+  font-size: 0.8rem;
+}
+
+.layer {
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.my-head-pa {
+  /* background-color: red; */
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.my-num {
+  color: #fff;
+  font-weight: 500;
+  font-size: 4rem;
+}
+
+.day-condition {
+  color: #009ad8;
+  font-size: 0.8rem;
+}
+
+.my-small-font {
+  font-size: 0.8rem;
+}
+
+.my-card {
+  background-color: #262936;
+}
+
+.my-second-card {
+  background-color: #242630;
+}
+
+.my-second-card .my-num,
+.my-third-card .my-num {
+  font-size: 2rem;
+}
+
+.my-second-card .my-small-num,
+.my-third-card .my-small-num {
+  font-size: 1rem;
+}
+
+.my-tri-input {
+  background-color: #1e202b;
+}
+
+footer {
+  background-color: #262936;
+}
+
+.include-my-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #1e202b;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.include-my-icons:hover {
+  background-color: var(--main-color);
+}
+.include-my-icons:hover .my-icon {
+  color: #fff;
+}
+.my-icon {
+  color: var(--main-color);
+  font-size: 0.8rem;
+  transition: 0.3 all;
+}
+
+.copy-pa {
+  color: var(--secondry-color);
+  font-size: 0.8rem;
+}
+
+.navbar-toggler-icon {
+  font-size: 0.8rem;
+}
+.navbar-toggler {
+  box-shadow: none;
+  border: none;
+}
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+}
+.navbar-toggler:hover {
+  box-shadow: 0 0 0 1.5px var(--main-color);
+}
+.navbar-toggler-icon {
+  font-size: 1.5rem;
+  background-image: none;
+  width: auto;
+}
+
+.my-span {
+  /* margin-top: 5px; */
+  display: inline-block;
+  height: 2px;
+  width: 20px;
+  background-color: #fff;
+}
+
+.my-sunny {
+  width: 7rem;
+}

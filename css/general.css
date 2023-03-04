@@ -1,0 +1,54 @@
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+Large: 1.8
+
+- Letter spacing
+-0.5px
+0.75px
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+:root {
+  font-weight: 300;
+  line-height: 1.5;
+
+  --main-color: #009ad8;
+  --secondry-color: #bfc1c8;
+  --main-font: "Roboto", sans-serif;
+  font-family: var(--main-font);
+  width: auto;
+  height: auto;
+}
+body {
+  font-family: var(--main-font);
+}
+ul {
+  padding: 0;
+  list-style: none !important;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.my-row {
+  width: 60%;
+}
